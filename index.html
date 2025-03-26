@@ -1,12 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Responsive Website</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    >
+    <title>Best online courses!</title>
 </head>
+
 <body>
-    
+
+    <header
+        class="nav"
+        id="nav"
+    >
+        <nav class="container">
+            <ul class="nav__links">
+                <a
+                    class="nav__link nav__link--active"
+                    href="#"
+                >
+                    <li class="nav__link-item">Home</li>
+                </a>
+                <a
+                    class="nav__link"
+                    href="./#features"
+                >
+                    <li class="nav__link-item">Features</li>
+                </a>
+                <a
+                    class="nav__link"
+                    href="./#testimonials"
+                >
+                    <li class="nav__link-item">Testimonials</li>
+                </a>
+                <a
+                    class="nav__link"
+                    href="./#contact"
+                >
+                    <li class="nav__link-item">Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section
+            class="hero"
+            id="hero"
+        >
+            <article class="hero__info">
+                <h1 class="hero__header">The best online courses in the market!</h1>
+                <p class="hero__sub-header">Checkout yourself!</p>
+                <button class="cta-button">Buy now!</button>
+            </article>
+        </section>
+
+        <section
+            class="features container"
+            id="features"
+        >
+            <article class="feature">
+                <img
+                    class="feature__icon"
+                    src="./img/globe.png"
+                    alt="Online courses image"
+                >
+                <h4>Online access</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias, incidunt corrupti reprehenderit
+                    tempore non labore, culpa fuga debitis nobis animi magnam provident aut. Nobis consectetur laborum
+                    praesentium possimus quia.</p>
+            </article>
+            <article class="feature">
+                <img
+                    class="feature__icon"
+                    src="./img/teacher.png"
+                    alt="Online courses image"
+                >
+                <h4>Best teachers</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias, incidunt corrupti reprehenderit
+                    tempore non labore, culpa fuga debitis nobis animi magnam provident aut. Nobis consectetur laborum
+                    praesentium possimus quia.</p>
+            </article>
+            <article class="feature">
+                <img
+                    class="feature__icon"
+                    src="./img/free.png"
+                    alt="Online courses image"
+                >
+                <h4>Try for free</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias, incidunt corrupti reprehenderit
+                    tempore non labore, culpa fuga debitis nobis animi magnam provident aut. Nobis consectetur laborum
+                    praesentium possimus quia.</p>
+            </article>
+
+        </section>
+
+        <section
+            class="about"
+            id="about"
+        >
+            <div class="about__container container">
+                <article class="about__text">
+                    <h2 class="about__header">Out team - meet people behind the course!</h2>
+                    <p class="about__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet suscipit
+                        tempora illum excepturi saepe minima quisquam est! Molestiae at ab architecto aut. Autem eveniet
+                        doloribus aspernatur labore nulla porro tempore.</p>
+                </article>
+                <article class="about__image">
+                    <figure class="about__image-container"></figure>
+                </article>
+            </div>
+        </section>
+
+        <section
+            class="testimonials container"
+            id="testimonials"
+        >
+            <div class="testimonial__arrow">
+                <img
+                    class="testimonial__arrow-image"
+                    src="./img/left-arrow.png"
+                    alt="Left arrow"
+                >
+            </div>
+            <article class="testimonial">
+                <p class="testimonial__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, quidem
+                    asperiores? Velit mollitia
+                    necessitatibus sed explicabo consequatur cum odio, voluptates omnis veritatis ullam tenetur eaque
+                    quidem
+                    asperiores iste eius debitis.
+                </p>
+                <hr class="testimonial__rule" />
+                <figure>
+                    <img
+                        class="testimonial__avatar"
+                        src="./img/avatar.jpg"
+                        alt="Avatar"
+                        width="50"
+                    />
+                    <figcaption class="testimonial__name">John doe</figcaption>
+                </figure>
+            </article>
+            <div class="testimonial__arrow">
+                <img
+                    class="testimonial__arrow-image"
+                    src="./img/right-arrow.png"
+                    alt="Right arrow"
+                >
+            </div>
+        </section>
+
+        <section
+            class="contact"
+            id="contact"
+        >
+            <div class="contact__container container">
+                <article class="contact__text">
+                    <h2 class="contact__header">Have questions?</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur nisi, dolore fugiat cum
+                        accusantium
+                        animi nemo, dolorem error amet corporis, soluta quo magnam perspiciatis. Distinctio veniam modi
+                        tempora
+                        odit delectus.</p>
+                    <hr class="contact__rule" />
+                    <div class="contact__info-container">
+                        <img
+                            class="contact__icon-address"
+                            src="./img/location.png"
+                            alt="Location dot image"
+                            width="25"
+                        />
+                        <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+                    </div>
+                    <div class="contact__info-container">
+                        <img
+                            class="contact__icon-phone"
+                            src="./img/phone-call.png"
+                            alt="Phone image"
+                            width="20"
+                        />
+                        <p>123 - 123 - 1234</p>
+                    </div>
+                </article>
+
+                <article class="contact__form">
+                    <form class="contact__form">
+                        <div>
+                            <input
+                                class="contact__form-input contact__form-input--transparent contact__form-input--full-width"
+                                name="email"
+                                type="email"
+                                placeholder="Email Address"
+                            />
+                        </div>
+                        <div>
+                            <input
+                                class="contact__form-input contact__form-input--transparent contact__form-input--full-width"
+                                name="name"
+                                type="text"
+                                placeholder=" Full Name"
+                            />
+                        </div>
+                        <div>
+                            <textarea
+                                class="contact__form-input contact__form-input--transparent contact__form-input--full-width"
+                                name="message"
+                                rows="4"
+                                placeholder="Message"
+                            ></textarea>
+                        </div>
+                        <div>
+                            <button
+                                class="contact__form-submit contact__form-submit--full-width"
+                                type="submit"
+                            >Send</button>
+                        </div>
+                    </form>
+                </article>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section
+            class="footer"
+            id="footer"
+        >
+            <h3 class="footer__header">The best online course in the market!</h3>
+            <button class="cta-button cta-button--big">Buy now!</button>
+        </section>
+        <section
+            class="copyright"
+            id="footer"
+        >
+            Made by <a
+                class="copyright__link"
+                href="https://coderoad.pl"
+            >coderoad.pl</a>
+        </section>
+    </footer>
+
 </body>
+
 </html>
